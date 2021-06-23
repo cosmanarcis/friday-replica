@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <div class="nav__container">
+                <div class="nav__wrapper">
+                    <div class="nav__logo">
+                        <img src="./features/header-logo.svg" alt="logo" class="logo__image">
+                    </div>
+                    <div class="nav__content">
+                        <ul class="nav__items">
+                            <li><a href="freeoffer.html" class="nav-item">free offer</a></li>
+                            <li><a href="features.html" class="nav-item">features</a></li>
+                            <li><a href="calculator.html" class="nav-item">calculator</a></li>
+                        </ul>
+                    </div>
+                    <div class="nav__menu">
+                        <button class="nav__button">book a demo</button>
+                        <div class="nav__hamburger">
+                            <span class="hamburger__line"></span>
+                            <span class="hamburger__line"></span>
+                            <span class="hamburger__line"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="menu__hidden">
+            <div class="menu__container">
+                <div class="menu__side">
+                    <div class="menu__side-close">
+                        <div class="menu__hamburger">
+                            <span class="menu__hamburger-line"></span>
+                            <span class="menu__hamburger-line"></span>
+                        </div>
+                        <a href="#" class="menu__close">close</a>
+                    </div>
+                    <img src="./features/header-logo.svg" class="menu__side-image">
+                    <div class="menu__side-nav">
+                        <ul>
+                            <li class="menu__nav-item"><a href="freeoffer.html" class="nav__a">free offer</a></li>
+                            <li class="menu__nav-item"><a href="features.html" class="nav__a">features</a></li>
+                            <li class="menu__nav-item"><a href="calculator.html" class="nav__a">calculator</a></li>
+                            <li class="menu__nav-item"><a href="#" class="nav__a">the happiness test</a></li>
+                            <li class="menu__nav-item"><a href="#" class="nav__a">customers</a></li>
+                            <li class="menu__nav-item"><a href="#" class="nav__a">pricing plans</a></li>
+                            <li class="menu__nav-item"><a href="#" class="nav__a">insights</a></li>
+                            <li class="menu__nav-item"><a href="#" class="nav__a">about us</a></li>
+                            <li class="menu__nav-item"><a href="#" class="nav__a">get in touch</a></li>
+                        </ul>
+                        <button class="menu__side-button">book a demo</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero__wrapper">
+                    <div class="hero__text">
+                        <p class="hero__subtitle">the value of resilience</p>
+                        <h1 class="title hero__title">Avoid losing <span>$1,000,000</span> this year*</h1>
+                        <p class="hero__description">Build resilience in your business now</p>
+                        <p class="hero__caption">*Based on a 200 employee company size</p>
+                    </div>
+                    <div class="hero__image">
+                        <img src="./calculator/hero.svg" alt="">
+                    </div>
+                </div>
+                <div class="hero__info">
+                    <div class="hero__info-block">
+                        <p>Employee wellbeing and team morale are the foundation of business resilience.</p>
+                        <p>It is imperative we do not overlook the human challenges of the current Coronavirus crisis.</p>
+
+                    </div>
+                    <div class="hero__info-block">
+                        <p>Our Resilience Calculator estimates the monetary value currently at risk from lower productivity and a lack of innovation.</p>
+                        <p><strong>The figures speak for themselves. Invest in your people today to avoid future losses.</strong> </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="calculator">
+            <div class="container">
+                <div class="calculator__top">
+                    <label for="text">My business is based in:</label>
+                    <input type="text" name="text" placeholder=" ex: Europa">
+                    <label for="number">Average annual salary:</label>
+                    <input type="number" name="number" placeholder="ex: 3000€">
+                    <p class="calculator__caption">*based on national salary average</p>
+                    <label for="text">Employees:</label>
+                    <input type="number" name="" placeholder="max: 5000">
+                </div>
+                <div class="calculator__bottom">
+                    <div class="calculator__bottom-intro">
+                        <img src="./calculator/calculator1.svg" alt="">
+                        <h1 class="title--md calculator__bottom-title">Build resilience and avoid losses</h1>
+                    </div>
+                    <div class="calculator__survey">
+                        <p>Are your processes and people roles defined? </p>
+                        <div class="survey__field">
+                            <fieldset class="survey__fieldset">
+                                <div class="survey__wrapper-first">
+                                    <input type="radio">
+                                    <label for="custom">0%</label>
+                                </div>
+                                <div class="survey__wrapper">
+                                    <input type="radio">
+                                    <label for="custom">25%</label>
+                                </div>
+                                <div class="survey__wrapper">
+                                    <input type="radio">
+                                    <label for="custom">50%</label>
+                                </div>
+                                <div class="survey__wrapper">
+                                    <input type="radio">
+                                    <label for="custom">75%</label>
+                                </div>
+                                <div class="survey__wrapper">
+                                    <input type="radio">
+                                    <label for="custom">100%</label>
+                                </div>
+                            </fieldset>
+                        </div>
+                        <div class="calculator__survey-description">
+                            <p>very tightly</p>
+                            <p>very loosely</p>
+                        </div>
+                        <div class="calculator__caption">
+                            <p>*based on company average</p>
+                        </div>
+                    </div>
+                    <div class="calculator__survey">
+                        <p>Do people collaborate or work independently? </p>
+                        <div class="survey__field">
+                            <fieldset class="survey__fieldset">
+                                <div class="survey__wrapper-first">
+                                    <input type="radio">
+                                    <label for="custom">0%</label>
+                                </div>
+                                <div class="survey__wrapper">
+                                    <input type="radio">
+                                    <label for="custom">25%</label>
+                                </div>
+                                <div class="survey__wrapper">
+                                    <input type="radio">
+                                    <label for="custom">50%</label>
+                                </div>
+                                <div class="survey__wrapper">
+                                    <input type="radio">
+                                    <label for="custom">75%</label>
+                                </div>
+                                <div class="survey__wrapper">
+                                    <input type="radio">
+                                    <label for="custom">100%</label>
+                                </div>
+                            </fieldset>
+                        </div>
+                        <div class="calculator__survey-description">
+                            <p>Very independent</p>
+                            <p>Highly collaborative</p>
+                        </div>
+                        <div class="calculator__caption">
+                            <p>*based on company average</p>
+                        </div>
+                    </div>
+                    <div class="calculator__survey">
+                        <p>How customer facing is the organization? </p>
+                        <div class="survey__field">
+                            <fieldset class="survey__fieldset">
+                                <div class="survey__wrapper-first">
+                                    <input type="radio">
+                                    <label for="custom">0%</label>
+                                </div>
+                                <div class="survey__wrapper">
+                                    <input type="radio">
+                                    <label for="custom">25%</label>
+                                </div>
+                                <div class="survey__wrapper">
+                                    <input type="radio">
+                                    <label for="custom">50%</label>
+                                </div>
+                                <div class="survey__wrapper">
+                                    <input type="radio">
+                                    <label for="custom">75%</label>
+                                </div>
+                                <div class="survey__wrapper">
+                                    <input type="radio">
+                                    <label for="custom">100%</label>
+                                </div>
+                            </fieldset>
+                        </div>
+                        <div class="calculator__survey-description">
+                            <p>Hardly anyone</p>
+                            <p>Everyone</p>
+                        </div>
+                        <div class="calculator__caption">
+                            <p>*based on company average</p>
+                        </div>
+                    </div>
+                    <div class="calculator__survey">
+                        <p>Level of remote working</p>
+                        <div class="survey__field">
+                            <fieldset class="survey__fieldset">
+                                <div class="survey__wrapper-first">
+                                    <input type="radio">
+                                    <label for="custom">0%</label>
+                                </div>
+                                <div class="survey__wrapper">
+                                    <input type="radio">
+                                    <label for="custom">25%</label>
+                                </div>
+                                <div class="survey__wrapper">
+                                    <input type="radio">
+                                    <label for="custom">50%</label>
+                                </div>
+                                <div class="survey__wrapper">
+                                    <input type="radio">
+                                    <label for="custom">75%</label>
+                                </div>
+                                <div class="survey__wrapper">
+                                    <input type="radio">
+                                    <label for="custom">100%</label>
+                                </div>
+                            </fieldset>
+                        </div>
+                        <div class="calculator__survey-description">
+                            <p>No-one</p>
+                            <p>Everyone</p>
+                        </div>
+                        <div class="calculator__caption">
+                            <p>*based on company average</p>
+                        </div>
+                        <div class="calculator__item">
+                            <label for="text">How many people work in your organization?</label>
+                            <input type="number" name="nr" placeholder="2000">
+                        </div>
+                        <div class="calculator__item">
+                            <label for="text">What % staff turnover did you have last year?</label>
+                            <input type="number" name="nr" placeholder="20">
+                        </div>
+                        <div class="calculator__item">
+                            <label for="text">What was the average number of sickness absence days per employee?
+                        </label>
+                            <input type="number" name="nr" placeholder="3">
+                        </div>
+                    </div>
+                    <div class="calculator__email">
+                        <h1 class="title--md calculator__email-title">Email FREE Report</h1>
+                        <input type="text" name="txt" placeholder="Your name:">
+                        <input type="text" name="txt" placeholder="Job title:">
+                        <input type="text" name="txt" placeholder="Company name:">
+                        <input type="text" name="txt" placeholder="Your work email:">
+                        <p class="calculator__email-description">A friendly disclaimer: Whilst we use the best available data, estimates are approximate. We cannot guarantee their precise accuracy. However,<strong>personalizing your results will indicate how building resilience will help your company avoid future losses. By completing the form, you authorise us to send you marketing communications. We won’t share your information with third parties or partners.</strong></p>
+                    </div>
+                    <div class="calculator__bottom-agree">
+                        <input type="checkbox" name="agree">I agree to the <span>Terms</span>
+                    </div>
+                    <button class="calculator__email-button">send</button>
+                    <div class="calculator__note">
+                        <p>Read here about</p>
+                        <span>The Science behind the Resilience Calculator</span>
+                    </div>
+                </div>
+                <!-- POSITION ABSOLUTE ITEMS -->
+                <div class="pannel">
+                    <div class="pannel__container">
+                        <div class="pannel__main">
+                            <div class="pannel__item">
+                                <h1 class="pannel__title">losses avoided</h1>
+                                <span>$650,000</span>
+                            </div>
+                            <div class="pannel__item">
+                                <h1 class="pannel__title">investment</h1>
+                                <span>$90,000</span>
+                                <p class="pannel__description">costs for implementing Friday, with a servicing allocation</p>
+                            </div>
+                            <div class="pannel__item">
+                                <h1 class="pannel__title-last">Your Total Resilience Value</h1>
+                                <span>$550,000*</span>
+                                <p class="pannel__description-last">*this year (less investments costs)</p>
+                            </div>
+                        </div>
+                        <div class="pannel__card -position-one">
+                            <h1 class="card__title">7,5% in productivity</h1>
+                            <p class="card__description">Team morale will protect:</p>
+                            <span>$5,490,000</span>
+                        </div>
+                        <div class="pannel__card -position-two">
+                            <h1 class="card__title">10% in sickness</h1>
+                            <p class="card__description">Higher wellbeing will avoid:</p>
+                            <span>$10,000</span>
+                        </div>
+                        <div class="pannel__card -position-three">
+                            <h1 class="card__title">17,5% in staff retention</h1>
+                            <p class="card__description">Engaged employees stay,saving:</p>
+                            <span>$60,000</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- END OF POSITION ABSOLUTE ITEMS -->
+            </div>
+        </section>
+        <footer class="calculator__footer">
+            <div class="footer__container">
+                <div class="footer__logo">
+                    <img src="./calculator/footerlogo.svg" alt="footer">
+                </div>
+                <div class="footer__wrapper">
+                    <div class="footer__copyright">
+                        <span>Copyright © 2021 Friday Pulse™</span>
+                        <span>Built with Heart of Friday London, UK.</span>
+                    </div>
+                    <div class="footer__nav-links">
+                        <ul class="nav--links">
+                            <li class="footer__item"><a href="#" class="footer__link">free offer</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">the happiness test</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">features</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">customers</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">pricing plans</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">calculator</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">insights</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">about us</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">contact us</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">help center</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">terms of use</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">privacy policy</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">our cookies</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="calculator.js"></script>
+</body>
+
+</html>
